@@ -74,6 +74,7 @@ BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_CMDLINE += cgroup.memory=nokmem,nosocket
 BOARD_KERNEL_CMDLINE += buildvariant=user
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
+BOARD_KERNEL_CMDLINE += kpti=off androidboot.boot_devices=soc/4804000.ufshc
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6125
 
